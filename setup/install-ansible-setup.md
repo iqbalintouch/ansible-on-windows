@@ -1,11 +1,13 @@
 # 🔧 Ansible Setup on Windows using WSL – Step-by-Step
 
+
 Hey there! 👋  
 If you're trying to get Ansible running on your Windows machine, and you're new to this – don't worry! Follow along and you'll have it up in no time.
 
 ---
 
 ## 🧱 Prerequisites
+
 
 Before we begin, make sure:
 - You're using Windows 10 or 11.
@@ -15,11 +17,10 @@ Before we begin, make sure:
 
 ---
 
-### 🔷 Step 1: Install WSL (If not already done)
+# Step 1: Install WSL (If not already done)
 
-Open PowerShell as **Administrator** and run:
+Open PowerShell as Administrator and run:
 
-```powershell
 wsl --install
 
 
