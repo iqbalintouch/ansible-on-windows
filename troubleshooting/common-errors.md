@@ -5,7 +5,7 @@ Don't worry, you're not alone! Here's a list of common problems and how to fix t
 
 ---
 
-## ❌ Error 1: "command not found: ansible"
+❌ Error 1: "command not found: ansible"
 **What it means:** Ansible isn’t installed or isn’t available in the shell’s `$PATH`.
 
 **✅ Fix:**
