@@ -36,6 +36,7 @@ wsl --install -d Ubuntu
 ### 🔁 Step 2: Update your Ubuntu WSL instance 
 
 Open Ubuntu terminal (from Start menu or Windows Terminal), and run:
+
 sudo apt update && sudo apt upgrade -y
 
 
