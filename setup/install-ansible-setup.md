@@ -8,7 +8,6 @@ If you're trying to get Ansible running on your Windows machine, and you're new 
 ## 🧱 Prerequisites
 
 Before we begin, make sure:
-
 - You're using Windows 10 or 11.
 - You have internet access (obviously 😅).
 - You've installed WSL (Windows Subsystem for Linux).
