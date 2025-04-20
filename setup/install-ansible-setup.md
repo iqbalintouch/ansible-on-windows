@@ -15,7 +15,7 @@ Before we begin, make sure:
 
 ---
 
-## 🔽 Step 1: Install WSL (If not already done)
+### 🔷 Step 1: Install WSL (If not already done)
 
 Open PowerShell as **Administrator** and run:
 
@@ -32,13 +32,13 @@ wsl --install -d Ubuntu
 🔁 Once done, reboot your system if needed.
 
 
-**🔁 Step 2: Update your Ubuntu WSL instance** 
+### 🔁 Step 2: Update your Ubuntu WSL instance 
 
 Open Ubuntu terminal (from Start menu or Windows Terminal), and run:
 sudo apt update && sudo apt upgrade -y
 
 
-**🛠️ Step 3: Install Ansible**
+### 🔷🛠️ Step 3: Install Ansible
 
 Now let's install Ansible:
 
@@ -51,7 +51,7 @@ ansible --version
 🎉 Done! Ansible is now installed inside WSL and ready to use.
 
 
-**🧪 Bonus: Run a test command**
+### 🔷🧪 Bonus: Run a test command
 
 Try this to ping localhost using Ansible:
 ansible localhost -m ping --connection=local
