@@ -8,13 +8,12 @@ Don't worry, you're not alone! Here's a list of common problems and how to fix t
 ❌ Error 1: "command not found: ansible"
 What it means: Ansible isn’t installed or isn’t available in the shell’s `$PATH`.
 
-**✅ Fix:**
-```bash
+✅ Fix:
+
 sudo apt install ansible -y
 
 After installing, verify:
 ansible --version
-
 
 ❌ Error 2: "Permission denied" while running playbooks
 What it means: You're trying to run a task that needs elevated privileges.
